@@ -21,10 +21,11 @@ public class TestClass extends TestSuite {
         testClass.runTestSuite();
     }
 
-    private void passingTest(){
-        assertEquals(5,5);
+    private void passingTest() {
+        assertEquals(5, 5);
     }
-    private void failingTest(){
-        assertEquals(3,7);
+
+    private void failingTest() {
+        assertEquals(3, 7);
     }
 }
